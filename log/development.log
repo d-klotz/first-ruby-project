@@ -5,3 +5,37 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 44ms (Views: 14.8ms | ActiveRecord: 0.0ms | Allocations: 7112)
 
 
+Started GET "/" for 127.0.0.1 at 2022-11-08 13:17:35 -0300
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 15)
+Completed 200 OK in 55ms (Views: 28.5ms | ActiveRecord: 0.0ms | Allocations: 5178)
+
+
+Started GET "/" for 127.0.0.1 at 2022-11-08 13:21:35 -0300
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 6.3ms | Allocations: 461)
+  Rendered layout layouts/application.html.erb (Duration: 1205.4ms | Allocations: 99926)
+Completed 200 OK in 1271ms (Views: 1208.1ms | Allocations: 102217)
+
+
+Started GET "/about" for 127.0.0.1 at 2022-11-08 13:43:04 -0300
+Processing by PagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (Duration: 0.9ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 16.1ms | Allocations: 14224)
+Completed 200 OK in 20ms (Views: 18.7ms | Allocations: 15276)
+
+
+Started GET "/" for 127.0.0.1 at 2022-11-08 13:46:20 -0300
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 105)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 2760)
+Completed 200 OK in 11ms (Views: 9.0ms | Allocations: 3784)
+
+
